@@ -44,7 +44,7 @@ function active_login() {
   var accountPassword = document.getElementById('loginPassword').value;
   $.ajax({
    type : "GET",
-   url : "https://cors-anywhere.herokuapp.com/https://vrc-api-demo.herokuapp.com/auth/check?user_id="+accountId+"&password="+accountPassword,
+   url : "https://vrc-api-demo.herokuapp.com/auth/check?user_id="+accountId+"&password="+accountPassword,
    dataType : "json",
    error : function() {
      alert("fail!");
