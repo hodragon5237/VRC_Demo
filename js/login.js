@@ -62,7 +62,7 @@ function active_login() {
       
       function AddCookie() {
         let accountNo = data.check.account_no
-        window.location.href = "./main.html?user=" + accountId + "&no=" + accountNo;	//그리고 다음 페이지로 간다
+        window.location.href = "./index.html?user=" + accountId + "&no=" + accountNo;	//그리고 다음 페이지로 간다
         let nameKey = "UserName";	//key값은 UserName으로 한다. 이건 변동 없음.
         let nameValue = accountId;	//입력한 값 가져옴
         let date = new Date();	//쿠키를 생성한 그 날의 날짜, 시간 생성
